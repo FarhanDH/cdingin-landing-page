@@ -1,7 +1,7 @@
-import pin from '../assets/pin.png';
-import date from '../assets/calender.png';
-import invoice from '../assets/invoice.png';
-import technician from '../assets/technician.png';
+import orderWhiteBg from '../assets/order-white-bg.png';
+import pinWhiteBg from '../assets/pin-white-bg.png';
+import time from '../assets/time-white-bg.png';
+import tool from '../assets/tool-white-bg.png';
 
 export type WaysOfWorking = {
   title: string;
@@ -20,25 +20,25 @@ export const waysOfWorking: WaysOfWorking[] = [
       {
         id: 1,
         title: 'Buat Pesanan',
-        icon: pin,
+        icon: orderWhiteBg,
         description: 'Input keluhan AC Kamu',
       },
       {
         id: 2,
         title: 'Tandai Lokasi',
-        icon: date,
+        icon: pinWhiteBg,
         description: 'Tentukan lokasi service AC Kamu',
       },
       {
         id: 3,
         title: 'Tentukan Jadwal',
-        icon: invoice,
+        icon: time,
         description: 'Pilih waktu yang tepat untuk Kamu',
       },
       {
         id: 4,
         title: 'Teknisi Datang',
-        icon: technician,
+        icon: tool,
         description: 'Teknisi akan datang sesuai jadwal',
       },
     ],
